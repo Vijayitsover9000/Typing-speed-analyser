@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="index.js" defer></script>
+    <title>Typing Speed Analyser</title>
+  </head>
+  <body>
+    <header><h1>Typing Speed Analyser</h1></header>
+    <main class="main">
+      <div class="counter" id="counter"></div>
+      <div class="content">
+        <div class="sample-text" id="sample"></div>
+        <textarea id="input" class="input-text" autofocus> </textarea>
+      </div>
+      <button class="buttonn" id="new-sample-text">New Sample Text</button>
+      <div class="result" id="result">
+        <div class="speed">
+          <p>Speed (words per minute)</p>
+          <div id="speed"></div>
+        </div>
+        <div class="accuracy">
+          <p>Accuracy (in %age)</p>
+          <div id="accuracy"></div>
+        </div>
+      </div>
+    </main>
+    <footer>© 2023 | Bijay kumar sah</footer>
+  </body>
+</html>
